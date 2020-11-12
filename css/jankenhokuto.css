@@ -1,0 +1,55 @@
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+/* background: linear-gradient(#003,#039); */
+}
+
+
+
+
+
+
+
+
+
+
+.hokutono{
+    /* width: 420px;
+   height: 145px; */
+/* background: url(img/IMG_8040.PNG);
+background-size: cover;
+background-position: center; */
+display: flex; 
+justify-content: center;
+align-items: center;
+flex-direction: column; 
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin-top: 40px;
+}
+.navigate_anchor{
+    display: inline-block;
+    font-size: 22px;
+    line-height: 44px;
+    padding: 0 14px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #444;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.26);
+    
+}
+
+
+
+
+
+
+
+

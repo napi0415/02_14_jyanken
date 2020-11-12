@@ -1,0 +1,128 @@
+
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+/* body{
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: black; 
+  
+} */
+
+/* body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+} */
+
+.sauza_area{
+  display: flex;
+}
+.sauza_img_area{
+  width: 25%;
+}
+.sauza_img1{
+  width: 100%;
+}
+.sauza_text_area{
+  display: flex;
+  width: 75%;
+  justify-content: center;
+  align-items: center;
+
+}
+.kenshiro_area{
+  display: flex;
+}
+.kenshiro_text_area{
+  display: flex;
+  width: 75%;
+  justify-content: center;
+  align-items: center;
+}
+.kenshiro_img_area{
+width: 25%;
+}
+.kenshiro_img1{
+  width: 100%;
+}
+
+
+.line-1{
+    position: relative;
+    top: 25%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid white;
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+ blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color:white;}
+  to{border-right-color: transparent;}
+}
+
+.line-2{
+    position: relative;
+    top: 25%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid white;
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+.anim-typewriter2{
+  animation: typewriter 4s steps(44) 5s 1 normal both,
+ blinkTextCursor 500ms steps(44) infinite normal;
+}
+/* @keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: white;}
+  to{border-right-color: transparent;}
+} */
+
+
+/* 次へカーソル */
+.next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin-top: 40px;
+}
+.navigate_anchor2{
+    display: inline-block;
+    font-size: 22px;
+    line-height: 44px;
+    padding: 0 14px;
+    text-decoration: none;
+    color:#ffff;
+    background-color: #444;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.26);
+    
+    
+}
+
+
+
