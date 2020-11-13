@@ -1,6 +1,6 @@
 # プロダクトのタイトル
 - 北斗のじゃん拳
-デプロイ先  : https://napi0415.github.io/02_14_jyanken/
+デプロイ先  : https://napi0415.github.io/02_14_jyanken/.
 
 ## プロダクトの紹介
 - サウザーとケンシロウのじゃんけん
