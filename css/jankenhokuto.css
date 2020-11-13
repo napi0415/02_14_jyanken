@@ -1,9 +1,37 @@
-body {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
+/* body { */
+/* display: flex; */
+/* justify-content: center; */
+/* align-items: center; */
+/* height: 100vh; */
 /* background: linear-gradient(#003,#039); */
+/* padding: 0; */
+/* margin: 0; */
+/* height: 100%; */
+/* display: flex; */
+/* align-items: center; */
+/* flex-direction: column; */
+/* } */
+
+
+/* .page_one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+} */
+
+
+
+.kakomi{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    margin: 20%;
+    
+
 }
 
 
@@ -11,27 +39,24 @@ height: 100vh;
 
 
 
-
-
-
-
+/* 
 .hokutono{
-    /* width: 420px;
-   height: 145px; */
-/* background: url(img/IMG_8040.PNG);
+    width: 420px;
+   height: 145px;
+background: url(img/IMG_8040.PNG);
 background-size: cover;
-background-position: center; */
+background-position: center;
 display: flex; 
 justify-content: center;
 align-items: center;
 flex-direction: column; 
-}
+} */
 
 .start{
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; 
+    flex-direction: column;  */
     margin-top: 40px;
 }
 .navigate_anchor{
@@ -45,6 +70,7 @@ flex-direction: column;
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.26);
     
 }
+
 
 
 
