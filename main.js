@@ -50,7 +50,8 @@
 					} else if (_dealerType === "scissors") {
 						RESULT.textContent = "引き分け";
 					} else {
-						RESULT.textContent = "勝ち！";
+						// RESULT.textContent = "勝ち！";
+						location.href = "index_4.html";
 					}
 					break;
 
